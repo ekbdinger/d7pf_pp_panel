@@ -280,9 +280,9 @@ function d7pf_pp_panel_default_page_manager_pages() {
     $pane->access = array();
     $pane->configuration = array(
       'override_pager_settings' => 0,
-      'use_pager' => 0,
+      'use_pager' => 1,
       'nodes_per_page' => '10',
-      'pager_id' => '',
+      'pager_id' => '0',
       'offset' => '0',
       'more_link' => 0,
       'feed_icons' => 0,
@@ -294,7 +294,7 @@ function d7pf_pp_panel_default_page_manager_pages() {
       'context' => array(
         0 => 'argument_term_1.name',
       ),
-      'override_title' => 0,
+      'override_title' => 1,
       'override_title_text' => '',
     );
     $pane->cache = array();
