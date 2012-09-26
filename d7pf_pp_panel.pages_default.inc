@@ -28,11 +28,21 @@ function d7pf_pp_panel_default_page_manager_pages() {
       'settings' => array(
         'input_form' => 'term',
         'vids' => array(
-          3 => 3,
-          1 => 0,
+          3 => '3',
           2 => 0,
+          10 => 0,
+          11 => 0,
+          12 => 0,
+          5 => 0,
+          9 => 0,
+          7 => 0,
+          8 => 0,
+          14 => 0,
+          15 => 0,
+          6 => 0,
         ),
         'breadcrumb' => 1,
+        'transform' => 1,
       ),
     ),
   );
